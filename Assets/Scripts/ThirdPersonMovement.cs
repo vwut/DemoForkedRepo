@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Cinemachine;
 
 public class ThirdPersonMovement : MonoBehaviour
 {
@@ -21,7 +22,6 @@ public class ThirdPersonMovement : MonoBehaviour
     public Transform groundCheck;
     public float checkRadius;
     public LayerMask groundLayer;
-
 
     public GameObject combatCamera;
     private bool isGrounded;
